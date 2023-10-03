@@ -5,7 +5,6 @@ import { Profile } from './Profile/Profile';
 export function App() {
   return (
     <div>
-      {' '}
       <Profile
         username={user.username}
         tag={user.tag}
